@@ -1,17 +1,17 @@
 body {
     margin: 0;
-    font-family: Cambria, Arial, sans-serif;
+    font-family: Calibri, Arial, sans-serif;
 }
 
 header {
     background-color: #dddddd;
     text-align: center;
     line-height: 2;
-    margin: 0 0 40px auto;
+    margin: 0 0 60px auto;
 }
 
 main{
-    max-width: 50%;
+    max-width: 47.5%;
     margin: 0 auto;
 }
 
@@ -19,9 +19,10 @@ footer {
     background-color: #1F487C;
     color: white;
     font-size: large;
-    text-align: center;
     font-family: sans-serif;
-    padding: 5px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
 }
 
 section {
@@ -31,36 +32,37 @@ section {
 nav {
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
-nav img {
-    height: 1.2em;
-    margin: 0 5px;
+nav a {
+    margin: 0 0.5em;
 }
 
-h1, h2, ul {
-    text-transform: uppercase; 
+ul {
+    font-variant: petite-caps;
 }
 
 h1, h2 {
+    text-transform: uppercase; 
     background-color: #bfbfbf;
-    letter-spacing: 10px;
+    letter-spacing: 0.5em;
+    font-family: Cambria;
 }
 
 h1 {
-    color: #1F4B77;
+    color: #1F487C;
     font-size: x-large;
     word-spacing: 1.5em;
 }
 
 h2 {
     color: #5F2727;
-    font-size: medium;
+    font-size: large;
 }
 
 span {
-    font-size:13.5px;
-    font-family: Verdana;
     font-style: italic;
     font-weight: bold;
+    font-size: 16px;
 }
